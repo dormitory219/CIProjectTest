@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E617240E20FAEA4800EF0520 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = E617240D20FAEA4800EF0520 /* exportOptions.plist */; };
 		E6BB54C020FA428D002617A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB54BF20FA428D002617A2 /* AppDelegate.m */; };
 		E6BB54C320FA428D002617A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB54C220FA428D002617A2 /* ViewController.m */; };
 		E6BB54C620FA428D002617A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6BB54C420FA428D002617A2 /* Main.storyboard */; };
@@ -16,6 +17,18 @@
 		E6BB54D820FA428D002617A2 /* CIProjectTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB54D720FA428D002617A2 /* CIProjectTestTests.m */; };
 		E6BB54E320FA428D002617A2 /* CIProjectTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BB54E220FA428D002617A2 /* CIProjectTestUITests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		E6BB54F020FA5C35002617A2 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		E6BB54D420FA428D002617A2 /* PBXContainerItemProxy */ = {
@@ -35,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E617240D20FAEA4800EF0520 /* exportOptions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 		E6BB54BB20FA428D002617A2 /* CIProjectTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIProjectTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BB54BE20FA428D002617A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6BB54BF20FA428D002617A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +123,7 @@
 				E6BB54C720FA428D002617A2 /* Assets.xcassets */,
 				E6BB54C920FA428D002617A2 /* LaunchScreen.storyboard */,
 				E6BB54CC20FA428D002617A2 /* Info.plist */,
+				E617240D20FAEA4800EF0520 /* exportOptions.plist */,
 				E6BB54CD20FA428D002617A2 /* main.m */,
 			);
 			path = CIProjectTest;
@@ -144,6 +159,7 @@
 				E6BB54B920FA428D002617A2 /* Resources */,
 			);
 			buildRules = (
+				E6BB54F020FA5C35002617A2 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -241,6 +257,7 @@
 				E6BB54CB20FA428D002617A2 /* LaunchScreen.storyboard in Resources */,
 				E6BB54C820FA428D002617A2 /* Assets.xcassets in Resources */,
 				E6BB54C620FA428D002617A2 /* Main.storyboard in Resources */,
+				E617240E20FAEA4800EF0520 /* exportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 99LSSXFZX4;
+				DEVELOPMENT_TEAM = K9K7J29GPZ;
 				INFOPLIST_FILE = CIProjectTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.intsig.CIProjectTest;
@@ -445,7 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 99LSSXFZX4;
+				DEVELOPMENT_TEAM = K9K7J29GPZ;
 				INFOPLIST_FILE = CIProjectTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.intsig.CIProjectTest;
